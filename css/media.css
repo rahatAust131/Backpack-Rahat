@@ -1,0 +1,25 @@
+@media (max-width: 760px) {
+  section {
+    margin-bottom: 3%;
+  }
+  .about-box {
+    flex-direction: column-reverse;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+  }
+  #about .box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+  }
+  .box-img {
+    width: 45%;
+  }
+  #sec-photo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+  }
+}

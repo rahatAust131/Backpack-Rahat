@@ -1,0 +1,105 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Fraunces", serif;
+}
+
+/* Navigation Bar */
+#nav-anchor {
+  display: inline-block;
+  width: 80%;
+}
+#nav-anchor-photo {
+  width: 80%;
+}
+.navbar-brand img {
+  width: 45%;
+}
+.nav-links { 
+  margin-left: 7px;
+  padding: 3px;
+}
+.nav-links:hover { 
+  background-color: black;
+  color: whitesmoke !important;
+  border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+  background-image: linear-gradient(45deg, greenyellow, white, cyan);
+}
+
+/* About Section */
+#about .box {
+  justify-content: center;
+  align-items: center;
+}
+.box-img {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Product Section */
+.casual,
+.travel {
+  background-image: linear-gradient(45deg, red, white, blue);
+}
+.main-backpack-img {
+  width: 65%;
+}
+.backpack-card img {
+  background-color: lightgray;
+}
+
+/* Contact Section */
+#contact {
+  color: white;
+}
+
+/* About Section */
+#about {
+  background-image: linear-gradient(270deg, greenyellow, whitesmoke, cyan);
+}
+.box {
+  box-shadow: 5px 5px 10px hotpink;
+  border-radius: 10px;
+  margin: 2% 0;
+}
+.section-col1 img {
+  width: 75%;
+}
+.section-col2 img {
+  width: 90%;
+}
+.section-col1 {
+  margin: auto;
+}
+.section-col2 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* For Other Elements */
+.large-text {
+  font-size: 50px;
+  color: rebeccapurple;
+}
+.colored-text {
+  color: coral;
+}
+.colored-price {
+  color: rgb(153, 255, 0);
+}
+.card-footer-btn {
+  background-image: linear-gradient(45deg, blue, darkblue);
+}
+.backpack-card-footer {
+  background: none !important; 
+  border: none !important;
+}
+.card-footer-btn:hover {
+  background-image: linear-gradient(45deg, black, cyan);
+}
+
